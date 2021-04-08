@@ -7,15 +7,15 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>POE Blog</title>
+        <title>NextJS Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <Header />
-        <h1 className={styles.title}>POE blog</h1>
+        <h1 className={styles.title}>Creating a blog with NextJS</h1>
 
-        <p className={styles.description}>A POE post</p>
+        <p className={styles.description}>A post</p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
